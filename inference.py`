@@ -12,8 +12,8 @@ print("**********warning**********")
 print("We have updated the model by replacing the upsample mode from \'bilinear\' to \'nearest\'. ")
 print("Please update to the latest code.")
 
-test_in_path = "/nfs/project/netdisk/192.168.10.227/d/cp/LEVIR_CD/raw/test/"
-test_out_path = "/nfs/project/netdisk/192.168.10.227/d/cp/LEVIR_CD/raw/out/FCCDN/"
+test_in_path = "/content/FCCDN_pytorch/test_in_path"
+test_out_path = "/content/FCCDN_pytorch/test_out_path"
 pretrained_weights = "./pretrained/FCCDN_test_LEVIR_CD.pth"
 mean_value = [0.37772245912313807, 0.4425350597897193, 0.4464795300397427]
 std_value = [0.1762166286060892, 0.1917139949806914, 0.20443966020731438]
